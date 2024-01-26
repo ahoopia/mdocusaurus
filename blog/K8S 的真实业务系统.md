@@ -2,11 +2,9 @@
 title: K8S 的真实业务系统
 tags: [容器]
 ---
-
 ### K8S的概念
 
 Kubernetes（简称K8s）是一个开源的容器集群管理系统，它可以自动化容器化应用程序的部署、扩展和管理。在Kubernetes中，一些核心概念包括：
-
 1. Pod：Pod是Kubernetes的最小部署单元，它封装了应用程序的运行环境和一组容器。一个Pod可以包含一个或多个容器，这些容器共享存储、网络和运行资源。
 2. Service：Service是Kubernetes中用于将多个Pod暴露给外部访问的一种机制。它定义了一个运行公共端口和负载均衡策略，将多个Pod实例组合成一个服务。
 3. Replication Controller（RC）和Replica Set：RC和Replica Set用于确保集群中存在指定数量的Pod副本。如果副本数量不足，控制器会自动创建新的Pod实例；如果副本数量过多，它会自动删除多余的实例。
