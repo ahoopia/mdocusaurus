@@ -15,6 +15,7 @@ tags: [工具,Linux]
 ### neofetch
 可以直接通过 `sudo apt install neofetch` 进行安装。
 可以将其写入到 `/etc/profile.d` 路径，登录成功即可显示。效果如下：
+
 ![](https://cdn.jsdelivr.net/gh/ahoopia/image/cs/20240126230821.png)
 
 ### screenfetch
