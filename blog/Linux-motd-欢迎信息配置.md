@@ -2,9 +2,6 @@
 title: Linux motd 欢迎信息配置
 tags: [工具,Linux]
 ---
-
-
-
 今天登录VPS的时候发现欢迎信息显示了一些基本的硬件信息。如下：
 
 ![](https://cdn.jsdelivr.net/gh/ahoopia/image/cs/20240126225941.png)
@@ -16,14 +13,9 @@ tags: [工具,Linux]
 除此之外，有两个服务也广受欢迎，它们分别是neofetch 和screenfetch。
 
 ### neofetch
-
-可以直接通过`sudo apt install neofetch ` 进行安装。
-
-可以将其写入到`/etc/profile.d` 路径，登录成功即可显示。效果如下：
-
+可以直接通过 `sudo apt install neofetch` 进行安装。
+可以将其写入到 `/etc/profile.d` 路径，登录成功即可显示。效果如下：
 ![](https://cdn.jsdelivr.net/gh/ahoopia/image/cs/20240126230821.png)
 
 ### screenfetch
-
-用法同上，安装命令为`sudo apt install screenfetch`.
-
+用法同上，安装命令为 `sudo apt install screenfetch`.
