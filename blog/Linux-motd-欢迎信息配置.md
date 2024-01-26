@@ -18,4 +18,4 @@ tags: [工具,Linux]
 ![](https://cdn.jsdelivr.net/gh/ahoopia/image/cs/20240126230821.png)
 
 ### screenfetch
-用法同上，安装命令为 `sudo apt install screenfetch`.
+用法同上，安装命令为 `sudo apt install screenfetch` .
